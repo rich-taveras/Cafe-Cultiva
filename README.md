@@ -6,3 +6,4 @@ CaféCultiva es una empresa comprometida con la excelencia en la producción de 
 Richard Taveras
 
 ## License
+MIT License
