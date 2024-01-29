@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.title{
+  width: 100%;
+  font-size: 80px;
+}
+
+h2{
+  width: 100%;
+  font-size: 60px;
+  color: red;
+}
+
+.logo-container {
+  max-width: 100%;
+  text-align: center; /* Centra horizontalmente el contenido del contenedor */
+}
+
+/* Otros estilos que puedas necesitar para el logo, como tamaño o márgenes adicionales */
+.logo-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+#userMenu {
+  display: none; /* Oculta el menú por defecto */
+}
