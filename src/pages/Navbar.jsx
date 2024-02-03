@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../img/CafeCultivaLogo.jpeg';
-import user from '../img/me.jpeg';
+import user from '../img/me.jpg';
 
 const Navbar = () => {
   return (
