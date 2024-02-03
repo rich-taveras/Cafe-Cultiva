@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../img/CafeCultivaLogo.jpeg';
+import user from '../img/me.jpeg';
 
 const Navbar = () => {
   return (
@@ -23,7 +24,7 @@ const Navbar = () => {
         </div>
         <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
           <div className="flex flex-shrink-0 items-center">
-            <img className="h-16 w-auto" src="src/img/CafeCultivaLogo.jpeg" alt="cafe cultiva logo/"/>
+            <img className="h-16 w-auto" src={logo} alt="cafe cultiva logo/"/>
           </div>
           <div className="hidden sm:ml-4 sm:block">
             <div className="flex space-x-4">
@@ -50,7 +51,7 @@ const Navbar = () => {
               <button type="button" className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                 <span className="absolute -inset-1.5"></span>
                 <span className="sr-only">Abrir Cuenta de Usuario</span>
-                <img className="h-8 w-8 rounded-full" src="src/img/me.jpg" alt=""/>
+                <img className="h-8 w-8 rounded-full" src={user} alt="user profile picture"/>
               </button>
             </div>
   
