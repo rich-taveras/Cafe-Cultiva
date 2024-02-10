@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../img/CafeCultivaLogo.jpeg';
+import logo from '../img/CafeCultivaLogo-removebg.png';
 import user from '../img/me.jpg';
 
 const Navbar = () => {
